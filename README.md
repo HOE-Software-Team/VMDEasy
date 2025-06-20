@@ -102,7 +102,7 @@ if strict_mode and physical_signatures > 0:
 return vm_confidence > 80  # 80%阈值
 ```
 
->[! IMPORTANT]
+>[!IMPORTANT]
 >## 注意事项
 >
 >1. 需要管理员权限访问注册表和系统文件
@@ -110,7 +110,7 @@ return vm_confidence > 80  # 80%阈值
 >3. 部分检测可能被高级虚拟机绕过
 >4. 内存检测仅适用于Windows系统
 
->[! TIP]
+>[!TIP]
 >## 开发者说明
 >
 >该工具使用了以下Windows API：
